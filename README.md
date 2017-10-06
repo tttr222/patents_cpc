@@ -30,14 +30,21 @@ Likewise, for 2010 the patent range is 7640598 and 8087093:
 
 # Parsing
 
-Once downloaded, run the following command to generate parsed outputs:
-`python patent_parse.py --start=7640598 --end=7861316 --outfile=patent_dataset_2010.json`
+Once downloaded, run the following command to generate the 2010 dataset:
 
-Or alternatively:
-`python patent_parse.py --start=7861317 --end=8087093 --outfile=patent_dataset_2011.json`
+`python patent_parse.py --start=7640598 --end=7861316 --outfile=patent_dataset_2010.jsonl`
+
+And for the 2011 dataset:
+
+`python patent_parse.py --start=7861317 --end=8087093 --outfile=patent_dataset_2011.jsonl`
 
 Files are saved in *json lines* format: http://jsonlines.org/
 
 # Caveat
 
 Please note that the parsing code is not designed to be able to parse all patent documents released by the USPTO website. Some of the older patents have inconsistent formatting (and broken HTML) that makes parsing difficult, but not impossible. Some adjustment to the code might be needed to handle older (and possibly newer) patents.
+
+# Author
+
+Tung Tran
+tung.tran *at* uky.edu
