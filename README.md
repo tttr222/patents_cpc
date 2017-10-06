@@ -46,5 +46,8 @@ Please note that the parsing code is not designed to be able to parse all patent
 
 # Author
 
-Tung Tran
-tung.tran *at* uky.edu
+~~~
+Tung Tran 
+tung.tran at uky.edu
+http://tttran.net
+~~~
